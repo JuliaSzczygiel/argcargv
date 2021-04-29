@@ -17,9 +17,9 @@ int main(int argc, char argv)
     if (argc == 4) 
 	{
     	for (int i = 0; i < 4; i++) 
+	{
+            if(licz > argv) 
 		{
-            if(licz>argv) 
-			{
                 licz = argv;
             }
         }
