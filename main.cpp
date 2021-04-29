@@ -26,5 +26,6 @@ int main(int argc, char argv)
     }
 
     cout << "Najwieksza liczba to: "<<licz <<endl;
+    plik.close();
     return 0;
 }
